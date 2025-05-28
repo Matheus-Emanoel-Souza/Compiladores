@@ -30,7 +30,7 @@ Gere os arquivos com:
 bash  
 Copiar  
 Editar  
-  bison -d arquivo.y    # gera arquivo.tab.c e arquivo.tab.h
+  bison -d arquivo.y    # gera arquivo.tab.c e arquivo.tab.h  
   flex arquivo.l        # gera lex.yy.c
 5. Compilar com GCC  
 Compile o main.c junto com os arquivos gerados pelo bison e flex:  
